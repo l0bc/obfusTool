@@ -165,8 +165,8 @@ class ObfusType():
 				f = d
 			elif (b):
 				n = b
-				d = 2 if (quarter ==4 ) else 1
-				f = quarter-2
+				d = 1
+				f = 1 if(quarter == 4) else quarter-2
 			elif (a):
 				n = a
 				d = f= 0
